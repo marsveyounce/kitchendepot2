@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kitchen Depot</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="icon" type="image/icon" href="favicon.png">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="images/svg/logo.svg">
+        <div class="sitename">kitchen depot</div>
+        <nav class="nav">
+            <ul class="topnav">
+                <li class="topnav-content">
+                    <img class="topnav-icon" src="images/svg/home.svg">
+                    <a href="#">home</a>
+                </li>
+                <li class="topnav-content activepage">
+                    <img class="topnav-icon" src="images/svg/book.svg">
+                    <a href="index.html">recipes</a>
+                </li>
+                <li class="topnav-content">
+                    <img class="topnav-icon" src="images/svg/bowl.svg">
+                    <a href="#">kitchen</a>
+                </li>
+                <li class="topnav-content">
+                    <img class="topnav-icon" src="images/svg/users.svg">
+                    <a href="#">community</a>
+                </li>
+                <li class="topnav-content">
+                    <img class="topnav-icon" src="images/svg/chat.svg">
+                    <a href="#">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="fullwidth-green">
+        <section id="pagelabel">
+            <h1>recipes</h1>
+            <div id="recipename">
+                <img src="images/svg/chevron-thin-right.svg" id="chevron">
+                <h2>tomato basil buratta pasta</h2>
+            </div>
+        </section>
+    </div>
+    <main>
+        <!-- RECIPE INFO -->
+        <section id="recipe-info">
+            <div id="recipe-item">
+                <div id="recipe-text">
+                    <p id="recipe-title">Tomato Basil Burrata Pasta</p>
+
+                    <div id="recipe-container">
+                        <img id="author-img" src="images/linda-haas.jpg">
+                        <span id="author">Linda Haas</span>
+                    </div>
+                    <div id="recipe-details">
+                        <ul id="recipe-details-text">
+                            <li>Preparation Time</li>
+                            <li>Cooking Time</li>
+                            <li>Serves</li>
+                        </ul>
+                        <ul id="recipe-time">
+                            <li>:10 min.</li>
+                            <li>:15 min.</li>
+                            <li>:4</li>
+                        </ul>
+                        <div id="recipe-description">
+                            <p>A succulent but healthy meal that brings on Mexican heat with the lightness of a flour
+                                tortilla. Easy to prepare for quick meals or mass produce it when company knocks at your
+                                door.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipe-image">
+                    <img src="images/tomato-basil-buratta-pasta.jpg">
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- INGREDIENTS/INSTRUCTIONS -->
+        <section id="steps">
+            <div id="ingredients">
+                <h3>ingredients</h3>
+                <ul>
+                    <li><b>680 g.</b> plum tomatoes, quartered</li>
+                    <li><b>3 cloves</b> garlic, chopped</li>
+                    <li><b>125 ml.</b> olive oil</li>
+                    <li><b>2 Tbs.</b> red wine vinegar</li>
+                    <li><b>2 tsp.</b> olive oil</li>
+                    <li><b>340 g.</b> spaghetti</li>
+                    <li><b>10 g.</b> chopped basil</li>
+                    <li><b>30 g.</b> grated parmesan cheese</li>
+                    <li><b>375 g.</b> burrata cheese</li>
+                </ul>
+            </div>
+            <div id="instructions">
+                <h3>instructions</h3>
+                <ol>
+                    <li>In a large, nonreactive bowl, combine the tomatoes, garlic, olive oil, vinegar, ½ tsp. salt and
+                        ¼ tsp. pepper. Let stand at room temperature, stirring occasionally, for 1 hour.</li>
+                    <li>Bring a large pot of generously salted water to a boil over high heat. Add the spaghetti and
+                        cook according to the package directions until al dente. Drain the pasta well and add, while
+                        still piping hot, to the bowl with the tomatoes.</li>
+                    <li>Stir in the basil and Parmesan. Taste and adjust the seasoning.</li>
+                    <li>Divide the pasta among bowls and top each serving with 60 to 90 g of the burrata.</li>
+                    <li>Drizzle the bowls with olive oil and serve immediately. Serves 4 to 6.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- RATINGS -->
+        <section class="ratings">
+            <div id="location">
+                <img src="images/svg/location-pin.svg" id="pin">
+                <p>Altopiano delle Murge, Italy</p>
+            </div>
+            <div id="tags">
+                <img src="images/svg/price-tag.svg" id="tag">
+                <ul>
+                    <li>pasta</li>
+                    <li>italian</li>
+                    <li>cheese</li>
+                </ul>
+            </div>
+            <div class="stars">
+                <img src="images/svg/star.svg">
+                <img src="images/svg/star.svg">
+                <img src="images/svg/star.svg">
+                <img src="images/svg/star.svg">
+                <img src="images/svg/star-outlined.svg">
+            </div>
+            <div id="votes">
+                <h3>4.17</h3>
+                <p>529 votes</p>
+            </div>
+        </section>
+
+        <!-- RECOMMENDATIONS -->
+        <div class="recommendations">
+            <div class="reco-main">
+                <h1 class="reco-title">RECOMMENDATIONS</h1>
+                <p class="reco-text">based on your browsing activity</p>
+            </div>
+
+            <!-- CHIPOTLE BEEF WRAP -->
+            <div id="cards">
+                <div id="card">
+                    <img class="card-img" src="images/chipotle-beef-wrap.jpg">
+                    <div id="card-content">
+                        <p id="card-title">Chipotle Beef Wrap</p>
+
+                        <div class="reco-stars">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star-outlined.svg">
+                        </div>
+
+                        <p id="card-text">There's Mexican heat in every bite of this healthy festive staple that will
+                            satisfy your spicy cravings.</p>
+
+                        <div class="user-container">
+                            <img class="user-image" src="images/user02.jpg">
+                            <span class="user-name">Josh Mendiola</span>
+                            <div class="rating-box">
+                                <h3>92.5</h3>
+                                <p>User Rating</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FILET MIGNON -->
+                <div id="card">
+                    <img class="card-img" src="images/filet-mignon.jpg">
+                    <div id="card-content">
+                        <p id="card-title">Filet Mignon</p>
+
+                        <div class="reco-stars">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star.svg">
+                            <img class="star" src="images/svg/star-outlined.svg">
+                        </div>
+
+                        <p id="card-text">Beef tenderloin seared to perfection so that its juices are released with
+                            every effortless slice.</p>
+
+                        <div class="user-container">
+                            <img class="user-image" src="images/user03.jpg">
+                            <span class="user-name">Dru Wang</span>
+                            <div class="rating-box">
+                                <h3>94.7</h3>
+                                <p>User Rating</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CHICKEN TANDOORI -->
+                <div id="card">
+                    <img class="card-img" src="images/chicken-tandoori.jpg">
+                    <div id="card-content">
+                        <p id="card-title">Chicken Tandoori</p>
+
+                        <div class="reco-stars">
+                            <div class="reco-stars">
+                                <img class="star" src="images/svg/star.svg">
+                                <img class="star" src="images/svg/star.svg">
+                                <img class="star" src="images/svg/star.svg">
+                                <img class="star" src="images/svg/star.svg">
+                                <img class="star" src="images/svg/star.svg">
+                            </div>
+                        </div>
+
+                        <p id="card-text">Chicken marinated in Indian spices will surely make you crave for Basmati or
+                            our delicions naan.</p>
+
+                        <div class="user-container">
+                            <img class="user-image" src="images/user04.jpg">
+                            <span class="user-name">Alexander Walsh</span>
+                            <div class="rating-box">
+                                <h3>96.5</h3>
+                                <p>User Rating</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section>
+            <div id="branding">
+                <div id="footer-logo">
+                    <img src="images/svg/logo.svg" id="foot-logo">
+                    <p id="contact-details">kitchen depot</p>
+                </div>
+                <div id="foot-details">
+                    <ul>
+                        <li><img src="images/svg/location-pin.svg" class="foot-img">365 Oxford Circus<br>London B5K-N8R,
+                            UK</li>
+                        <li><img src="images/svg/phone.svg" class="foot-img">+44 736 937 5655</li>
+                        <li><img src="images/svg/paper-plane.svg" class="foot-img">customercare@kitchendepot.org</li>
+                        <li><img src="images/svg/laptop.svg" class="foot-img">www.kitchendepot.org</li>
+                    </ul>
+                </div>
+                <div id="socials">
+                    <img src="images/svg/facebook.svg" class="socials-icon">
+                    <img src="images/svg/instagram.svg" class="socials-icon">
+                    <img src="images/svg/twitter.svg" class="socials-icon">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- SUBFOOTER -->
+    <div id="fullwidth-darkgray">
+        <section id="subfooter">
+            <p>&copy; Copyright 2024 Kitchen Depot</p>
+            <p><img class="rocket" src="images/svg/rocket.svg"> Web Development<span id="name"> by</span> Mars Pesquira
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
